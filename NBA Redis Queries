@@ -1,0 +1,20 @@
+redis-cli HSET mID0486qtr4min9sec32pID2DNK Eventpoints "2"
+redis-cli HSET mID0486qtr4min9sec32pID2DNK TeamAwayScore "80"
+redis-cli HSET mID0486qtr4min9sec32pID2DNK TeamHomeScore "120"
+redis-cli HSET mID0486qtr4min9sec32pID2DNK Deficit "-40"
+redis-cli HKEYS mID0486qtr4min9sec32pID2DNK
+redis-cli HMGET mID0486qtr4min9sec32pID2DNK Deficit
+redis-cli HMGET mID0486qtr4min9sec32pID2DNK Eventpoints
+redis-cli HMGET mID0486qtr4min9sec32pID2DNK
+redis-cli HGETALL mID0486qtr4min9sec32pID2DNK
+redis-cli HVALS mID0486qtr4min9sec32pID2DNK
+redis-cli KEYS *qtr4*
+redis-cli KEYS *qtr4min9*
+redis-cli HSET mID0486qtr4min10sec58pID320SRJ Eventpoints "0"
+redis-cli KEYS *qtr4*
+redis-cli HSET mID0486qtr5min12sec42pID4803PT Eventpoints "3"
+redis-cli HSET mID0486qtr4min9sec32pID2DNK TeamHomeScore "123"
+redis-cli HSET mID0486qtr4min9sec32pID2DNK Deficit "-43"
+redis-cli KEYS *pID2*
+redis-cli KEYS *pID320*
+redis-cli KEYS *mID0486*
